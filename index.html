@@ -16,6 +16,7 @@
     <div class="centered">
         <img src="FOTO.jpg" class="profile-img" alt="'Profile Image">
         <h2 class="profile-name" id="profileName"></h2>
+        <h2 class="profile-name" id="profileName"></h2>
         <div id="links"></div>
     </div>
 
@@ -29,8 +30,6 @@
             <a href="${i.url}" class="link-btn">${i.title}</a>
         `); 
     });
-
-    document.getElementById("profileImage").src = config.imageURL;
     document.getElementById("profileName").innerHTML = config.name;
     
     </script>

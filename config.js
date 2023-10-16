@@ -1,5 +1,5 @@
 export let config = {
-    name: 'Geovani Velazquez VEGA',
+    name: 'Geovani Velazquez Vega',
     imageURL: 'FOTO.JPG',
     links: [
         { title: 'LINKEDIN', url: 'https://www.linkedin.com/in/geovani2401' },
